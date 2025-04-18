@@ -6,11 +6,11 @@ class Animal {
 
 class Dog extends Animal {
     void bark() {
-        System.out.println("Dog barks");
+        System.out.println("Dog barks like crazy");
     }
 }
 
-public class Main3 {
+public class Que3 {
     public static void main(String[] args) {
         Dog d = new Dog();
         d.makeSound(); // from parent class

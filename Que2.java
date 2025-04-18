@@ -11,7 +11,7 @@ class Book {
     // Constructor Overloading
     Book(String t) {
         title = t;
-        pages = 100;
+        pages = 1500;
     }
 
     void showBook() {
@@ -26,8 +26,8 @@ class Book {
 
 public class Main2 {
     public static void main(String[] args) {
-        Book b1 = new Book("Core Java", 200);
-        Book b2 = new Book("OOP Concepts");
+        Book b1 = new Book("Crime And Punishment", 522);
+        Book b2 = new Book("Arthashastra By Kautilya");
 
         b1.showBook();
         b2.showBook();

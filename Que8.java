@@ -2,17 +2,17 @@ import java.io.FileWriter;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Main8 {
+public class Que8 {
     public static void main(String[] args) {
         try {
             // Writing to a file
-            FileWriter writer = new FileWriter("myfile.txt");
+            FileWriter writer = new FileWriter("myfile41.txt");
             writer.write("This is Java File Handling.");
             writer.close();
             System.out.println("File successfully written.");
 
             // Reading from the file
-            FileReader reader = new FileReader("myfile.txt");
+            FileReader reader = new FileReader("myfile41.txt");
             int ch;
             while ((ch = reader.read()) != -1) {
                 System.out.print((char) ch);

@@ -24,7 +24,7 @@ class Book {
     }
 }
 
-public class Main2 {
+public class Que2 {
     public static void main(String[] args) {
         Book b1 = new Book("Crime And Punishment", 522);
         Book b2 = new Book("Arthashastra By Kautilya");

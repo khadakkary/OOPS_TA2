@@ -10,7 +10,7 @@ class Box<T> {
     }
 }
 
-public class Main7 {
+public class Que7 {
     public static <T> void showItem(T item) {
         System.out.println("Item: " + item);
     }
